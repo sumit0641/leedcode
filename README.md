@@ -1,31 +1,23 @@
-<div align="center">
-  <h1>⚡ Sumit Kumar Yadav ⚡</h1>
-  <h3>Code | Compile | Conquer</h3>
-  <p><i>3rd-Year CSE Undergrad & Algorithms Enthusiast 💻</i></p>
-</div>
+# 👋 Hi, I'm Sumit Kumar Yadav 🚀
+
+**B.Tech CSE Student | Problem Solver | Aspiring Software Engineer**
+
+Welcome to my LeetCode workspace! I am a third-year Computer Science Engineering student with a strong passion for algorithmic problem-solving, competitive programming, and building scalable software architectures. I love breaking down complex problems and writing clean, optimized code. 
+
+### 💻 Tech Stack & Tools
+*   **Languages:** Java (My go-to for DSA!), Python, JavaScript, SQL
+*   **Software Engineering:** Android Development, Cloud Computing principles
+*   **DevOps & Deployment:** Docker, Kubernetes, Jenkins, Git/GitHub, CI/CD Pipelines
+
+### 🏆 Milestones & Achievements
+*   **HackWithInfy:** Successfully cleared Round 1 & Round 2.
+*   **Interview Invites:** Earned a Pre-Placement Interview (PPI) for the Digital Specialist Engineer (DSE) role at Infosys.
+*   **Professional Experience:** Completed a virtual internship as an Android Developer.
+
+### 🚀 What I'm Building & Learning
+*   Consistently grinding LeetCode, tackling everything from core fundamental arrays to advanced dynamic programming and linked list architectures.
+*   Designing and implementing zero-downtime deployment pipelines using Jenkins, GitHub, Docker, and Kubernetes.
+*   Exploring data representation through projects like my recent Netflix Data Visualization dashboard. 
 
 ---
-
-### 👨‍💻 The Blueprint
-Turning logic into optimized, scalable solutions. I'm an engineering student who thrives on algorithmic challenges and system architecture. Whether I'm debugging a dynamic programming problem or orchestrating a zero-downtime deployment, I write code to build and break limits. 
-
-### 🛠️ Tech Arsenal
-*   **The Core:** `Java` (Weapon of choice for DSA ⚔️) | `Python` | `JavaScript` | `SQL`
-*   **DevOps & Architecture:** `Docker` | `Kubernetes` | `Jenkins` | `CI/CD Pipelines`
-*   **Development:** `Android Ecosystem` | `Data Visualization`
-
-### 🚀 Current Trajectory
-*   🎯 **Next Target:** Pre-Placement Interview (PPI) for **Digital Specialist Engineer (DSE)** at Infosys.
-*   🏆 **Recent Wins:** Conquered Round 1 & 2 of **HackWithInfy**.
-*   🧠 **Daily Grind:** Mastering advanced Data Structures, Algorithms, and Cloud Computing principles.
-
-### 📂 Featured Builds
-*   ♾️ **Zero-Downtime Pipeline:** Automated software delivery integrating Jenkins, GitHub, Docker, and Kubernetes for rapid, reliable deployments.
-*   📊 **Netflix Analytics:** Decoding streaming data trends through interactive visualization.
-*   📱 **Virtual Android Dev:** Built and shipped mobile interfaces during a professional virtual internship.
-
----
-
-<div align="center">
-  <b><i>"If it times out, we optimize it. If it passes, we make it cleaner."</i></b> 🚀
-</div>
+*"Consistency is the key to mastering algorithms."* Let's connect and code! 💻✨
