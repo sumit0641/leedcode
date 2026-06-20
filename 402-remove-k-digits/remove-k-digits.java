@@ -1,34 +1,38 @@
 class Solution {
     public String removeKdigits(String num, int k) {
+        int len = num.length();
+        //corner case
+        if(k==len)        
+            return "0";
+            
         Stack<Character> stack = new Stack<>();
-        
-        for (char digit : num.toCharArray()) {
-            while (!stack.isEmpty() && k > 0 && stack.peek() > digit) {
+        int i =0;
+        while(i<num.length()){
+            //whenever meet a digit which is less than the previous digit, discard the previous one
+            while(k>0 && !stack.isEmpty() && stack.peek()>num.charAt(i)){
                 stack.pop();
                 k--;
             }
-            stack.push(digit);
+            stack.push(num.charAt(i));
+            i++;
         }
         
-        // Remove remaining k digits from the end of the stack
-        while (k > 0 && !stack.isEmpty()) {
+        // corner case like "1111"
+        while(k>0){
             stack.pop();
-            k--;
+            k--;            
         }
         
-        // Construct the resulting string from the stack
+        //construct the number from the stack
         StringBuilder sb = new StringBuilder();
-        while (!stack.isEmpty()) {
+        while(!stack.isEmpty())
             sb.append(stack.pop());
-        }
-        sb.reverse(); // Reverse to get the correct order
+        sb.reverse();
         
-        // Remove leading zeros
-        while (sb.length() > 0 && sb.charAt(0) == '0') {
+        //remove all the 0 at the head
+        while(sb.length()>1 && sb.charAt(0)=='0')
             sb.deleteCharAt(0);
-        }
-        
-        // Handle edge case where result might be empty
-        return sb.length() > 0 ? sb.toString() : "0";
+        return sb.toString();
     }
+
 }
