@@ -1,18 +1,18 @@
 class Solution {
 
     public String removeOuterParentheses(String s) {
+        int level = 0;
         StringBuilder res = new StringBuilder();
-        Deque<Character> stack = new ArrayDeque<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c == ')') {
-                stack.pop();
+                level--;
             }
-            if (!stack.isEmpty()) {
+            if (level > 0) {
                 res.append(c);
             }
             if (c == '(') {
-                stack.push(c);
+                level++;
             }
         }
         return res.toString();
